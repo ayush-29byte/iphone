@@ -1,0 +1,109 @@
+body{
+            background: grey;
+}
+ #iphone{
+                position: relative;
+                margin:30px auto 30px auto;
+                height:550px;
+                width:266px;
+                /*background:#000;*/
+               border-radius: 46px;
+               box-shadow: inset -1px -1px 0 0 #1b1b1e,
+                                      inset -1px 0px 0px  #5b514d,
+                                      inset 0 -3px 1px 1px #51575e,
+                                     inset 0px -4px 0px 1px #dcd2cd,
+                                     inset 0 0 0 1px #877b73,
+                                    inset 0 0 1px 2px #b7afa8,
+                                    inset 0 0 1px 3px #dbdadb,
+                                    inset 0 3px 1px 1px #e3e6ea,
+                                   inset 0 0 0 4px #e4e4e4,
+                                   inset -3px 1px 1px 1px #a4a4aa;
+            background: linear-gradient(to bottom,rgba(218,220,223,1) 0%,rgba(206,208,210,1) 100%);
+                 }
+#phone-header{
+                           float:left;
+                           height: 62px;
+                           width:100%;
+                           position: relative;
+                         }
+#mic{
+            width:9px;
+           height:9px;
+           border-radius: 100%;
+           background: #000;
+           margin:11px auto;
+          box-shadow:0 0 0 1px #fff,inset 0 0 2px 1px #484949;
+       }
+#camera{
+                height: 12px;
+                width: 12px;
+                position: absolute;
+                top:28px;
+                left:85px;
+                background: #24292c;
+                border-radius: 100%;
+               box-shadow:0 0 1px 1px #FFF,inset 0 0 0 2px #000,inset 0 0 2px 4px #131316;
+            }
+#speaker{ 
+                 height:6px;
+                 width: 42px;
+                 background: #000;
+                margin: 0 auto;
+                border-radius: 5px;
+                box-shadow: 0 0 1px 1px #FFF;
+               }
+#screen{
+               height: 422px;
+               width: 240px;
+              background-color: #171515;
+              margin: 0 13px;
+              border-radius: 3px;
+              box-shadow: 0 0 0 2px #000;
+              overflow: hidden;
+            }
+#btn{
+           height: 45px;
+           width: 45px;
+          background: #c9cdd1;
+          border-radius: 100%;
+          margin: 8px auto;
+          box-shadow: 0 -1px 1px 1px #fff, 
+                                 inset 0 -2px 3px 1px #3e3c42,
+                                 inset 0 0 0 4px #090a15,
+                                 inset 0 1px 0 5px #eef3f9;
+             }
+.btn-1{
+             height: 20px;
+             top:70px;
+          }
+.btn-2{
+            height: 40px;
+            top:115px;
+          }
+.btn-3{
+             height: 40px;
+             top:165px;
+             }
+.1btn{
+           width: 3px;
+           left: -2px;
+           background: #d5cdcd;
+           position: absolute;
+           border-radius: 2px;
+          box-shadow: inset 1px 0px #565454,
+                                 inset 2px 0px #8d837c,
+                                 inset 3px 0px #d9d2d0,
+                                 inset -1px 0px 1px 1px #5f5f5b;
+           }
+#rbtn{ 
+            width: 3px;
+            height: 36px;
+            background: #e1dddb;
+            position: absolute;
+            right: -2px;
+            top:115px;
+            border-radius: 2px;
+            box-shadow: inset 1px 0px 0 #68696a,
+                                   inset -1px 0 0 #170c07,
+                                  inset -2px 0 0 #fff;
+       }
